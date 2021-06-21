@@ -1,11 +1,11 @@
 # SakhsiBheda
 import random
-print("The game will be total of 10 rounds\nPress: 's' for Snake or 'w' for Water or 'g' for Gun")
+print("The game will be total of 5  rounds\nPress: 's' for Snake or 'w' for Water or 'g' for Gun")
 i=0
 win=0
 lost=0
 draw=0
-while i<10:
+while i<5:
     lst=["Snake", "Water", "Gun"]
     choice=random.choice(lst)
     n=input("\nEnter your choice: ")
@@ -45,14 +45,14 @@ while i<10:
             lost+=1
         else:
             print("You have entered a wrong choice")
-    print("Left-over round number: ",10-i)
+    print("Left-over round number: ",5-i)
     a=f"\nTill now the score is:\nYou: {win}\nComputer: {lost}\nDraw: {draw}"
     print(a)
     i+=1
-if i==10:
+if i==5:
     if win>lost:
-        print("\nWinner!!! You have won the game")
+        print("\nWinner......... You have won the game")
     elif lost>win:
-        print("\nGame Over!!! You have lost the game")
+        print("\nGame Over!  You have lost the game")
     else:
-        print("\nGame Draw!!!")
+        print("\nGame Draw!.......")
