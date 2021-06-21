@@ -1,4 +1,4 @@
-
+# SakhsiBheda
 import random
 print("The game will be total of 10 rounds\nPress: 's' for Snake or 'w' for Water or 'g' for Gun")
 i=0
